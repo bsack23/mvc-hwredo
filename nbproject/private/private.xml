@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/opt/lampp/htdocs/mvc-hwredo/assets/css/nav.css</file>
+            <file>file:/opt/lampp/htdocs/mvc-hwredo/assets/css/screen.css</file>
+            <file>file:/opt/lampp/htdocs/mvc-hwredo/controller/indexController.php</file>
+            <file>file:/opt/lampp/htdocs/mvc-hwredo/controller/staticController.php</file>
+            <file>file:/opt/lampp/htdocs/mvc-hwredo/model/event.class.php</file>
+            <file>file:/opt/lampp/htdocs/mvc-hwredo/views/index_head.php</file>
+            <file>file:/opt/lampp/htdocs/mvc-hwredo/views/index.php</file>
+            <file>file:/opt/lampp/htdocs/mvc-hwredo/views/header_menu.php</file>
+            <file>file:/opt/lampp/htdocs/mvc-hwredo/.htaccess</file>
+            <file>file:/opt/lampp/htdocs/mvc-hwredo/views/header_navselect.php</file>
+            <file>file:/opt/lampp/htdocs/mvc-hwredo/views/index_content.php</file>
+        </group>
+    </open-files>
+</project-private>

@@ -1,0 +1,115 @@
+@charset "UTF-8";
+/* CSS Document */
+
+* {
+  box-sizing:border-box;
+  
+}
+
+/* puts menu flush against top of window
+eventually chage this in screen.css */
+.container {
+    padding: 0px 1em 1em;
+}
+
+nav {
+  margin: 0 auto;
+}
+
+nav {
+  margin-top:0px;
+}
+
+.navbar {
+	padding: 0px 1.5em 1.5em 1.5em;position:relative;z-index:1000;
+	text-transform:uppercase;
+}
+
+.top-nav {
+  text-align:center;
+  font-size:0;
+  padding:0px 1.5em;
+}
+
+.top-nav li {
+  display:inline-block;
+  width:25%;
+  background: #555;  
+  position:relative;
+}
+
+.top-nav > li:hover,
+.sub-nav > li:hover {
+  color:white;
+}
+
+.top-nav > li.active > a {
+  color:#ffef00;
+}
+
+.top-nav > li a {
+  text-decoration:none;
+  /*font-size:24px;*/
+  font-size:20px;
+  line-height:1.5em;
+  text-align:center;
+  display:block;
+  color:lightgrey;
+}
+
+
+.top-nav > li a {
+  border-left: 1px solid black;
+  border-right: 1px solid #555;
+  border-bottom: 1px solid black;
+  border-top: 1px solid #555;
+}
+
+
+.top-nav > li > a:hover,
+.sub-nav > li > a:hover {
+  color:#ffef00;
+}
+
+.sub-nav {
+	padding:0;
+  	position:absolute;
+  	width:100%;
+  	visibility:hidden;
+}
+
+.top-nav li:hover .sub-nav {
+  visibility:visible;
+}
+
+.sub-nav > li {
+  display:block;
+  width:100%;
+  position:relative;
+}
+
+.sub-nav > li a {
+  border-bottom: 1px solid black;
+  border-top: 1px solid #555;
+}
+.sub-nav > li:first-child {
+    border-top: none;
+}
+.sub-nav > li:last-child {
+   border-bottom: none;
+}
+@media only screen and (min-width: 30em) {
+	.top-nav > li a {font-size:12px}
+	}
+	
+@media only screen and (min-width: 40em) {
+	.top-nav > li a {font-size:16px}
+	}
+	
+@media only screen and (min-width: 57em) {
+	.top-nav > li a {font-size:20px}
+	}
+
+@media only screen and (min-width: 76em) {
+	.top-nav > li a {font-size:24px}
+}

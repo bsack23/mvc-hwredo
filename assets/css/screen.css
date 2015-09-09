@@ -1,0 +1,284 @@
+
+body {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	margin: 0;
+}
+
+a { color: #555; text-decoration: none; }
+a:hover { color: #000; text-decoration: underline; }
+a:active {text-decoration:underline;}
+a img { border: none }
+ul {
+	list-style-type:none;
+}
+h1 {
+	font-size: 2.2em;
+}
+h2 {
+	font-size: 1.4em;
+}
+h2, h3, h4, h5 {
+	margin-top: 0;
+}
+h2, h3, h4, h5 {
+	margin-bottom: 0.25em;
+}
+img {
+  	max-width: 100%;
+}
+p {
+	font-family: Georgia, Times, "Times New Roman", serif;
+	font-size: 0.8125em;
+	line-height: 1.5;
+	margin: 0 0 1.5em;
+}
+code {
+	font-size: 1.2727em;
+	color: #777;
+}
+iframe {
+	border: 0;
+	overflow: hidden;
+}
+.center {
+	text-align:center;
+}
+.container {
+	margin: 0 auto;
+	max-width: 90em;
+	padding: 1em 0;
+}
+
+.footer {
+	/* padding-top: 1.5em; */
+	text-align:center;
+	border:none;
+}
+.footertext {
+	text-transform:uppercase;
+	font-size:.7em;
+}
+.desc {
+	color: #888;
+}
+.intro {
+	/* border-bottom: 1px dotted #bbb; */
+	border:none;
+	padding-bottom: 1.5em;
+}
+.social {
+	/* border-top: 1px dotted #bbb; */
+	border:none;
+	padding-top: 1.5em;
+}
+.mediumheading {
+	text-transform:uppercase;
+	margin-top:1.0em;
+}
+
+/* minor responsive adjustments */
+
+.headleft {
+	padding: .5em 0 .5em 0;
+	/*padding-bottom:.5em;
+	padding-right:0;
+	padding-left:0;*/
+	
+}
+
+.headright {
+	padding-top:.5em;
+}
+
+.content {
+	/* border-bottom: 1px dotted #aaa; */
+	border:none;
+	margin-bottom: 1.5em;
+}
+
+/* ----------------------------------- */
+
+
+#upcoming {
+	margin:1em 0;
+	padding:.5em;
+	/* border:1px solid #aaa; */
+	border:none;
+	/*background-color:#fff780;*/
+	height:10em;
+	overflow:hidden;
+	background-color:#eee;
+	width:auto;
+}
+
+
+#upcoming ul {
+	list-style:none;
+	padding:0;
+	margin:0;
+	border:none;
+}
+#upcoming li {
+ list-style-type: square;
+ list-style-position: inside;
+ list-style-image: none;
+ padding:.2em 0;
+}
+#upcoming .visual {
+	color:#FF9A30;
+}
+#upcoming .media {
+	color:#26D426;
+}
+#upcoming .music {
+	color:#3AA3FB;
+}
+#upcoming .perflit {
+	color:#A666D9;
+}
+#upcoming .special {
+	color:#FF3B14;
+}
+#upcoming .community {
+	color:#00FFFF;
+}
+#upcoming .calls {
+	color:#0099FF;
+}
+#upcoming a {
+	color:#000;
+	text-decoration:none;
+ 	padding:.2em 0 .2em .2em;
+}
+#upcoming a:hover {
+	color:#333;
+	text-decoration:none;
+	border-left:1px black dashed;
+	border-bottom:1px black dashed;
+}
+
+/* ----------------------------------- */
+.prog_nav {
+	text-align:justify; 
+	text-transform:uppercase;
+	line-height:1.5;
+	font-size: .8em;
+	letter-spacing:.075em;
+	/*max-width:90em;*/
+}
+.prog_nav * {
+	display:inline;
+}
+.prog_nav ul {
+	list-style: none; 
+	list-style-image: none; 
+	margin: 0; 
+	padding: .4em 0em;
+  	background-color:#ffef00;
+}
+.prog_nav li {
+	display:inline-block;
+	padding:.15em .2em;
+}
+
+.prog_nav span {
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  height: 0;
+  background-color:#0f0;
+}
+
+
+.prog_nav a {
+	color:#222;
+	border:none;
+	text-decoration:none;
+	font-weight:normal;
+	padding:0em .25em;
+}
+.prog_nav a:hover {
+	color:#000;
+	border-left:1px black dashed;
+	border-bottom:1px black dashed;
+}
+
+.navselect {
+	text-transform:uppercase;
+	font-size:1em;
+	background-color:#ffef00;
+	border:none;
+	letter-spacing:.075em;
+	width:100%;
+}
+
+a.headanch:visited,a.headanch:link {text-decoration:none;color:#555;}
+a.headanch:hover,a.headanch:active,a.headanch:focus {text-decoration:underline;color:#000;}
+
+.breadcrumbs {
+	text-transform:uppercase;
+	font-weight:bold;
+	letter-spacing:.1em;
+	font-size:.8em;
+	padding:.2em;
+	margin-bottom:.5em;
+	background-color:#ffef00;
+}
+
+
+/* ----------------------------------- 
+.prog_nav {
+	text-align:justify;
+	text-transform:uppercase;
+	font-size: .8em;
+}
+.prog_nav * {
+	display:inline;
+}
+.prog_nav ul {
+	list-style-type:none;
+}
+.prog_nav li {
+	display:inline-block;
+	width:auto;
+}
+
+.prog_nav span {
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  height: 0;
+  background-color:#0f0;
+}
+
+.prog_nav a {
+	color:#000;
+	border:none;
+	text-decoration:none;
+	font-weight:bold;
+	padding:0em .25em;
+}
+.prog_nav a:hover {
+	color:#666;
+	border:1px black solid;
+}
+*/
+/* ----------------------------------- */
+
+.support_button {
+	float:left;width:50%;text-align:center;
+}
+	
+.galleryimg {
+	padding-right: 1em;
+	float:left;}
+	
+	
+.container { max-width: 90em; }
+.datetime {padding:0 1.0em 0 0;text-transform:uppercase;}
+.description {padding: 0;}	
+		  
+	
+/* ----------------------------------- */
+
+

@@ -1,0 +1,9 @@
+RewriteEngine on
+
+RewriteCond %(REQUEST_FILENAME) !-f
+#RewriteCond %{REQUEST_FILENAME} !\.(pdf|js|ico|gif|jpg|png|css|rar|zip|tar\.gz)$
+RewriteCond %(REQUEST_FILENAME) !-d
+#RewriteCond $1 !^(css|js|robots\.txt)
+RewriteCond $1 !^(assets|robots\.txt)
+
+RewriteRule ^(.*)$ index.php?rt=$1 [L,QSA]

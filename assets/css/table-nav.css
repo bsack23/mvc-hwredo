@@ -1,0 +1,85 @@
+nav {
+	font-size:1em;
+	text-transform:uppercase;
+  background: #ffef00;
+  border: 1px solid #ccc;
+  border-right: none;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  list-style: none;
+  text-align: center;
+  border-left: 1px solid #fff;
+  border-right: 1px solid #ccc;
+}
+
+nav ul li:first-child {
+  border-left: none;
+}
+
+nav ul li a {
+  display: block;
+  text-decoration: none;
+  color: #616161;
+  padding: .25em 0;
+}
+
+nav {
+  display: table;
+  table-layout: fixed;
+}
+
+nav ul {
+  display: table-row;
+}
+
+nav ul li {
+  display: table-cell;
+}
+*/
+
+/*Styles for screen 515px and lower*/
+@media only screen and (max-width : 480px) {
+	nav {
+		border-bottom: 0;
+	}
+	nav ul {
+		display: none;
+		height: auto;
+	}
+	nav a#pull {
+		display: block;
+		background-color: #283744;
+		width: 100%;
+		position: relative;
+	}
+	nav a#pull:after {
+		content:"";
+		background: url('nav-icon.png') no-repeat;
+		width: 30px;
+		height: 30px;
+		display: inline-block;
+		position: absolute;
+		right: 15px;
+		top: 10px;
+	}
+}
+
+/*Smartphone*/
+@media only screen and (max-width : 320px) {
+	nav li {
+		display: block;
+		float: none;
+		width: 100%;
+	}
+	nav li a {
+		border-bottom: 1px solid #576979;
+	}
+}
